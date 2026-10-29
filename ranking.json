@@ -1,0 +1,37 @@
+[
+  {
+    "proposal": "A",
+    "rank": 1,
+    "status": "ranked",
+    "score": 82.54,
+    "reason": "Strongest complete evidence: high qualifying experience, a 12-week plan, solid warranties, and a full delivery and monitoring approach."
+  },
+  {
+    "proposal": "E",
+    "rank": 2,
+    "status": "ranked",
+    "score": 67.38,
+    "reason": "Good experience with a 13-week schedule and strong warranty and monitoring commitments, but a higher price and fewer installs than A."
+  },
+  {
+    "proposal": "C",
+    "rank": 3,
+    "status": "ranked",
+    "score": 59.00,
+    "reason": "Solid experience and warranty evidence, but a 14-week schedule, the highest price among mandatory passers, and weaker safety and monitoring detail."
+  },
+  {
+    "proposal": "D",
+    "rank": null,
+    "status": "flagged",
+    "score": null,
+    "reason": "Mandatory evidence and price are present, but no committed timeline is stated; clarification is required before scoring or ranking."
+  },
+  {
+    "proposal": "B",
+    "rank": null,
+    "status": "ineligible",
+    "score": null,
+    "reason": "Bidder-held Ontario electrical contractor licence is not established because electrical work is described as a subcontractor still to be confirmed."
+  }
+]
