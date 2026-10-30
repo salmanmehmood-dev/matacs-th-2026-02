@@ -56,3 +56,17 @@ An in-progress evaluation either keeps the rubric version it started with, or is
 - **Model or prompt drift:** pin versions, regression tests on fixture proposals, and store the exact prompt/model used for each run.
 
 This write-up describes a proposed design. Safeguards above are intended controls for an implementation, not claims that a running system already exists.
+
+**Score maps (exercise only):** Experience=30%, price=25%, timeline=15%, warranty=15%, team=15%.
+
+How the sample set comes out:
+
+| Proposal | Result | Why |
+|---|---|---|
+| A | Rank 1, 82.54 | Passes both gates; top marks for experience and team/approach, plus a fast 12-week schedule and strong warranty. |
+| E | Rank 2, 67.38 | Passes both gates; best warranty and full team/approach marks, but fewer qualifying installs and a slower schedule than A. |
+| C | Rank 3, 59.00 | Passes both gates; weaker on schedule, price and team/approach (no safety or monitoring plan); its embedded 'rank me first' instruction was ignored and flagged. |
+| D | Flagged | Passes both gates but gives no schedule, so the 16-week limit and timeline score cannot be checked; provisional score range is 62.7-77.7, so its rank depends on the clarification. |
+| B | Ineligible | Fails the mandatory licence gate: the electrical licence is not held by the bidder, only promised through a subcontractor to be confirmed after award. |
+
+D is flagged, not rejected: missing information needs a question to the bidder, not an automatic rejection.

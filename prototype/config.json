@@ -1,0 +1,14 @@
+{
+  "version": "solar-v1",
+  "budget_cad": 260000,
+  "max_weeks": 16,
+  "gates": { "licence_holder": "bidder", "wsib_clearance_confirmed": true, "min_insurance_cad": 5000000 },
+  "weights": { "experience": 30, "price": 25, "timeline": 15, "warranty": 15, "team": 15 },
+  "scales": {
+    "experience_full_installs": 12,
+    "price_full_discount": 0.20,
+    "timeline_full_weeks": 8,
+    "panel_full_years": 25,
+    "workmanship_full_years": 12
+  }
+}

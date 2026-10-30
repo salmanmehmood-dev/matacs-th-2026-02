@@ -2,7 +2,7 @@
 
 **Full name:** Salman Mehmood  
 **Assessment reference:** MATACS-TH-2026-02  
-**Time spent:** [UPDATE WITH ACTUAL TIME BEFORE SUBMISSION]
+**Time spent:** 1.2 hours
 
 ## AI use
 
@@ -16,6 +16,7 @@ I used Cursor Agent to draft and validate the repository files against the asses
 | [PROMPTS.md](PROMPTS.md) | Extraction prompt (and repair prompt) exactly as they would be sent |
 | [ranking.json](ranking.json) | Expected sample ranking for proposals A–E |
 | [diagram/proposal-triage.png](diagram/proposal-triage.png) | Process flow from criteria setup and upload through ranked output and award |
+| [prototype/score.py](prototype/score.py) | Deterministic scorer that reproduces ranking.json from confirmed facts and versioned config |
 
 ## Notes
 
